@@ -1,0 +1,25 @@
+body {
+  font-family: Chakra Petch, Arial;
+  background-color: rgba(1,71,0,255);
+  color: white;
+  height: 6000px;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+}
+
+li {
+  font-size: 20px;
+}
+
+.circle {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: rgba(73,162,0,255);
+}
