@@ -5,16 +5,23 @@ body {
   height: 6000px;
 }
 
+li {
+  font-size: 30px;
+}
+
+a {
+  color: white;
+}
+
 .dashboard-container {
+  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 600px;
-}
-
-li {
-  font-size: 20px;
+  top: 150px;
+  left: 450px;
 }
 
 .circle {
